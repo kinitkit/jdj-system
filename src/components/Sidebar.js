@@ -43,9 +43,9 @@ export default class Sidebar extends React.Component {
                     <div className="side-menu-container">
                         <ul className="nav navbar-nav">
 
-                            <li><a href="/"><span className="glyphicon glyphicon-send"></span> Home</a></li>
-                            <li><a href="/"><span className="glyphicon glyphicon-plane"></span> Products</a></li>
-                            <li><a href=""><span className="glyphicon glyphicon-cloud"></span> Settings</a></li>
+                            <li><a href="/home"><span className="fas fa-home"></span> Home</a></li>
+                            <li><a href="/product"><span className="glyphicon glyphicon-inbox"></span> Products</a></li>
+                            <li><a href="/settings"><span className="glyphicon glyphicon-wrench"></span> Settings</a></li>
 
                             {
                                 // <li className="panel panel-default" id="dropdown">
